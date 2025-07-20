@@ -61,6 +61,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Винтажная палитра
+				vintage: {
+					orange: '#D2691E',
+					brown: '#8B4513',
+					cream: '#FFF8DC',
+					sandy: '#F4A460',
+					dark: '#2F1B14',
 				}
 			},
 			borderRadius: {
@@ -89,6 +97,10 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			fontFamily: {
+				'oswald': ['Oswald', 'sans-serif'],
+				'sans': ['Open Sans', 'sans-serif'],
 			}
 		}
 	},
